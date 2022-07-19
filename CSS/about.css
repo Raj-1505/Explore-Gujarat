@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Shadows+Into+Light&family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+.container{
+    height: 498px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container::before{
+    content: "";
+    position: absolute;
+    background : url("../img/shivrajpur-beach.jpg") no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    height: 550px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+.welcome{
+    font-family: 'Architects Daughter', cursive;
+}
+.box h1{
+    margin: 8px 20px;
+    font-family: 'Architects Daughter', cursive;
+}
+.pera{
+    margin: 15px 22px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.box h2{
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+}
+

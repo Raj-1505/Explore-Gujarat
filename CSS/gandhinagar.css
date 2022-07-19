@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Shadows+Into+Light&family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+.container{
+    height: 498px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container::before{
+    content: "";
+    position: absolute;
+    background : url("../img/gandhinger/gandhinager.bg1.jpg") no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    height: 550px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+.welcome{
+    font-family: 'Architects Daughter', cursive;
+}
+.welcome h2{
+    color: #ff6401;
+}
+.box h1{
+    margin: 8px 20px;
+    color: #ff6401;
+    font-family: 'Architects Daughter', cursive;
+}
+.pera{
+    margin: 15px 22px;
+    font-size: 20px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.box1 h1{
+    margin: 8px 20px;
+    padding: 20px 0px;
+    color: #ff6401;
+    font-family: 'Architects Daughter', cursive;
+}
+.gallery{
+    margin:0px 20px;
+    width: 85vw;
+    height: 60vmin;
+    display: flex;
+    gap: 5px;
+}
+.gallery img{
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.gallery img:hover{
+    flex: 4;
+}
+.box1 h2{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Architects Daughter', cursive;
+}
