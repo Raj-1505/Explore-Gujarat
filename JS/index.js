@@ -2,7 +2,7 @@
 function changePage(id){
     switch (id) {
         case 'button1':
-            window.location="/HTML/dwarka.html"
+            window.location="HTML/dwarka.html"
             break;
         case 'button2':
             window.location="/HTML/jamnagar.html"
