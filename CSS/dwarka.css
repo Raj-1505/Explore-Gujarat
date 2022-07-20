@@ -10,7 +10,7 @@
 .container::before{
     content: "";
     position: absolute;
-    background : url("/img/dwarka/dwarka.bg.jpg") no-repeat center center/cover;
+    background : url("../img/dwarka/dwarka.bg.jpg") no-repeat center center/cover;
     top: 0px;
     left: 0px;
     height: 550px;
